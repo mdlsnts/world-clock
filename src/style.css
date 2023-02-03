@@ -17,6 +17,7 @@ h2 {
 }
 .container {
   max-width: 500px;
+  max-height: 800px;
   margin: 70px auto;
   background-color: white;
   padding: 30px;
