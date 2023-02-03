@@ -18,7 +18,7 @@ h2 {
 .container {
   max-width: 500px;
   max-height: 700px;
-  margin: 40px auto;
+  margin: 50px auto;
   background-color: white;
   padding: 20px;
   box-shadow: 8px 8px 15px #b2b2b2;
@@ -54,6 +54,7 @@ select {
 footer {
   font-family: "Nunito", sans-serif;
   text-align: center;
+  padding-bottom: 40px;
 }
 .name-link {
   text-decoration: none;
