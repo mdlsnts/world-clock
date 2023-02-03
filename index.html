@@ -4,47 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>World Clock - Marta Delos Santos</title>
   </head>
   <body>
-    <h1>World Clock</h1>
-    <select name="" id="">
-      <option value="">Select a city...</option>
-      <option value="">Warsaw 🇵🇱</option>
-      <option value="">Tokyo 🇯🇵</option>
-      <option value="">New York 🇺🇸</option>
-      <option value="">Honolulu 🇺🇸</option>
-    </select>
+    <div class="container">
+      <h1>World Clock</h1>
+      <select name="" id="">
+        <option value="">Select a city...</option>
+        <option value="">Warsaw 🇵🇱</option>
+        <option value="">Tokyo 🇯🇵</option>
+        <option value="">New York 🇺🇸</option>
+        <option value="">Honolulu 🇺🇸</option>
+      </select>
 
-    <div class="city">
-      <h2>Los Angeles 🇺🇸</h2>
-      <div class="date">February 2nd 2023</div>
-      <div class="time">1:48:15 AM</div>
+      <div class="city">
+        <div>
+          <h2>Los Angeles 🇺🇸</h2>
+          <div class="date">February 2nd 2023</div>
+        </div>
+        <div class="time">1:48:15 <small>AM</small></div>
+      </div>
+      <div class="city">
+        <div>
+          <h2>Osaka 🇯🇵</h2>
+          <div class="date">February 2nd 2023</div>
+        </div>
+        <div class="time">1:48:15 <small>AM</small></div>
+      </div>
+      <div class="city">
+        <div>
+          <h2>Sydney 🇦🇺</h2>
+          <div class="date">February 2nd 2023</div>
+        </div>
+        <div class="time">1:48:15 <small>AM</small></div>
+      </div>
+      <div class="city">
+        <div>
+          <h2>Manila 🇵🇭</h2>
+          <div class="date">February 2nd 2023</div>
+        </div>
+        <div class="time">1:48:15 <small>AM</small></div>
+      </div>
     </div>
-    <div class="city">
-      <h2>Osaka 🇯🇵</h2>
-      <div class="date">February 2nd 2023</div>
-      <div class="time">1:48:15 AM</div>
-    </div>
-    <div class="city">
-      <h2>Sydney 🇦🇺</h2>
-      <div class="date">February 2nd 2023</div>
-      <div class="time">1:48:15 AM</div>
-    </div>
-    <div class="city">
-      <h2>Manila 🇵🇭</h2>
-      <div class="date">February 2nd 2023</div>
-      <div class="time">1:48:15 AM</div>
-    </div>
-
     <footer>
-      This project was coded by
-      <a href="https://linktr.ee/martadlsnts" target="_blank"
+      Project coded by
+      <a href="https://linktr.ee/martadlsnts" target="_blank" class="name-link"
         >Marta Delos Santos</a
-      >
-      and is open-sourced on
-      <a href="https://github.com/mdlsnts/world-clock" target="_blank"
+      >, open-sourced on
+      <a
+        href="https://github.com/mdlsnts/world-clock"
+        target="_blank"
+        class="github-link"
         >Github</a
       >
     </footer>

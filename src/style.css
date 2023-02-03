@@ -1,0 +1,73 @@
+body {
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/065/480/original/pexels-olha-ruskykh-7166020.jpg?1675347770");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+.date {
+  opacity: 0.7;
+}
+.container {
+  max-width: 500px;
+  margin: 70px auto;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 8px 8px 15px #b2b2b2;
+  border-radius: 8px;
+  font-family: "Raleway", sans-serif;
+}
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed #dddddd;
+}
+.city:last-child {
+  border: none;
+}
+.time {
+  font-size: 40px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 14px;
+  vertical-align: 20%;
+  line-height: 36px;
+}
+footer {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+.name-link {
+  text-decoration: none;
+  color: #eb455f;
+  font-weight: bold;
+}
+.name-link:hover {
+  color: #439a97;
+}
+.github-link {
+  text-decoration: none;
+  color: #439a97;
+  font-weight: bold;
+}
+.github-link:hover {
+  color: #eb455f;
+}
