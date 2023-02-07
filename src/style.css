@@ -13,7 +13,7 @@ h2 {
   font-size: 28px;
 }
 .city:hover {
-  background-color:#f8f4ea;
+  background-color: #f8f4ea;
 }
 .country {
   font-size: 13px;
@@ -76,7 +76,7 @@ select {
 footer {
   font-family: "Nunito", sans-serif;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 .name-link {
   text-decoration: none;
