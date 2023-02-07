@@ -5,7 +5,7 @@ body {
 }
 h1 {
   font-size: 40px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
   text-align: center;
 }
 h2 {
@@ -23,14 +23,14 @@ h2 {
   padding: 20px;
   box-shadow: 8px 8px 15px #b2b2b2;
   border-radius: 8px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 select {
   display: block;
   width: 100%;
   border-radius: 4px;
   padding: 10px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .city {
   display: flex;
@@ -44,7 +44,7 @@ select {
 }
 .time {
   font-size: 40px;
-  font-weight: bold;
+  font-weight: normal;
 }
 .time small {
   font-size: 14px;
