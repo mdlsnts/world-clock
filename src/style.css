@@ -12,6 +12,27 @@ h2 {
   margin: 0 0 5px;
   font-size: 28px;
 }
+.city:hover {
+  background-color: #fefcf3;
+}
+.country {
+  font-size: 13px;
+  color: #85586f;
+  vertical-align: 20%;
+}
+.home {
+  text-decoration: none;
+  color: #205e61;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.home:hover {
+  color: #3f979b;
+  font-weight: bold;
+}
+
 .date {
   opacity: 0.7;
 }
@@ -38,6 +59,7 @@ select {
   margin: 15px 0;
   padding: 15px 0;
   border-bottom: 1px dashed #dddddd;
+  border-radius: 5px;
 }
 .city:last-child {
   border: none;
